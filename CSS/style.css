@@ -1,0 +1,44 @@
+/* Image circle style */
+.circle-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0px solid #fff;
+  transition: filter 0.3s ease;
+  
+}
+
+/* Dark mode styles */
+.dark-mode .form-control {
+  background-color: #333;
+  color: #fff;
+  border-color: #666;
+}
+.dark-mode .form-control::placeholder {
+  color: #aaa;
+}
+.dark-mode .card {
+  background-color: #1a1a1a;
+  border-color: #444;
+}
+.dark-mode .circle-img {
+  filter: brightness(1);
+}
+
+/* Light mode styles */
+.light-mode .form-control {
+  background-color: #fff;
+  color: #000;
+  border-color: #ccc;
+}
+.light-mode .form-control::placeholder {
+  color: #666;
+}
+.light-mode .card {
+  background-color: #f9f9f9;
+  border-color: #ddd;
+}
+.light-mode .circle-img {
+  filter: brightness(0.95);
+}
