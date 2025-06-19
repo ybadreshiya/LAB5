@@ -16,5 +16,8 @@
     "url": "https://github.com/ybadreshiya/LAB5/issues"
   },
   "homepage": "https://github.com/ybadreshiya/LAB5#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
 }
